@@ -12,10 +12,9 @@ export function BottomHero() {
       <div className="max-w-7xl mx-auto">
         <div className="relative w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden">
           <img 
-            src="https://storage.googleapis.com/aistudio-chat-prod-contents/7b58cbb3-5353-4ac0-a54b-d790f135ad0a" 
+            src="/hero3.png" 
             alt="Best in protection & Trust" 
             className="w-full h-full object-cover object-center"
-            referrerPolicy="no-referrer"
           />
           
           <div className="absolute inset-x-0 bottom-0 top-2/3 bg-gradient-to-t from-black/60 to-transparent pointer-events-none md:hidden" />

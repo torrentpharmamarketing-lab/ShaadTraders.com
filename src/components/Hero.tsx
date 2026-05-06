@@ -11,10 +11,9 @@ export function Hero() {
     <div className="relative w-full bg-black">
       <div className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden">
         <img 
-          src="https://storage.googleapis.com/aistudio-chat-prod-contents/c0d7ffad-8fe5-4148-897c-9b165b4c4149" 
+          src="/hero1.png" 
           alt="Are you ready for supreme feel?" 
           className="w-full h-full object-cover object-center"
-          referrerPolicy="no-referrer"
         />
         
         <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/80 to-transparent pointer-events-none md:hidden" />
