@@ -24,7 +24,7 @@ export const products: Product[] = [
     description: "Experience enhanced pleasure and comfort with our premium banana-flavored condoms. Designed with smooth lubrication for a natural feel.",
     colorName: "Yellow",
     colorCode: "#F6D000",
-    image: "https://storage.googleapis.com/aistudio-chat-prod-contents/91a13e55-32bd-474c-bbbc-87729f31fa13",
+    image: "/product1.jpeg",
     variants: [
       { id: "mb-3", name: "3 Pack", packSize: 3, price: 150 },
       { id: "mb-12", name: "12 Pack", packSize: 12, price: 550 },
@@ -37,7 +37,7 @@ export const products: Product[] = [
     description: "Specially designed with ribbed texture to increase stimulation and provide a climax like never before. Maximum reliability and comfort.",
     colorName: "Blue",
     colorCode: "#0076CE",
-    image: "https://storage.googleapis.com/aistudio-chat-prod-contents/a6067b57-a5ec-4e2a-bdd2-4752ca6b5278",
+    image: "/product2.jpeg",
     variants: [
       { id: "mr-3", name: "3 Pack", packSize: 3, price: 180 },
       { id: "mr-12", name: "12 Pack", packSize: 12, price: 650 },
@@ -50,7 +50,7 @@ export const products: Product[] = [
     description: "Specially designed with raised dots to increase stimulation and provide a climax like never before. Maximum reliability and comfort.",
     colorName: "Dark Blue",
     colorCode: "#1B365D",
-    image: "https://storage.googleapis.com/aistudio-chat-prod-contents/b47bb2da-3f5f-4a00-b5bc-702330a13344",
+    image: "/product3.jpeg",
     variants: [
       { id: "md-3", name: "3 Pack", packSize: 3, price: 180 },
       { id: "md-12", name: "12 Pack", packSize: 12, price: 650 },
@@ -63,7 +63,7 @@ export const products: Product[] = [
     description: "Get the closest connection possible. Strawberry flavored, designed for extreme sensitivity without compromising protection.",
     colorName: "Red",
     colorCode: "#D12127",
-    image: "https://storage.googleapis.com/aistudio-chat-prod-contents/e29a9ea1-92eb-4581-817f-cc5a5135efbd",
+    image: "/product4.jpeg",
     variants: [
       { id: "ms-3", name: "3 Pack", packSize: 3, price: 200 },
       { id: "ms-12", name: "12 Pack", packSize: 12, price: 750 },
@@ -77,7 +77,7 @@ export const products: Product[] = [
     description: "Soft vanilla scent for a sweet and intimate experience. Premium quality and thoroughly tested.",
     colorName: "Light Yellow",
     colorCode: "#FDE68A",
-    image: "https://storage.googleapis.com/aistudio-chat-prod-contents/56e7922d-606d-4952-bba3-27f917551061",
+    image: "/product5.jpeg",
     variants: [
       { id: "mv-3", name: "3 Pack", packSize: 3, price: 200 }
     ]
