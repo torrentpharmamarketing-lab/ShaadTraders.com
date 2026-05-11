@@ -5,17 +5,20 @@ export function TrustIndicators() {
     {
       icon: <ShieldCheck size={32} className="text-black mb-4" />,
       title: "DRAP Licensed",
-      description: "Officially registered and approved by the Drug Regulatory Authority of Pakistan for your complete peace of mind."
+      description: "Officially registered and approved by the Drug Regulatory Authority of Pakistan for your complete peace of mind.",
+      images: ["/Certificateofenlistment.jpeg"]
     },
     {
       icon: <CheckCircle2 size={32} className="text-black mb-4" />,
       title: "Govt. Supply Verified",
-      description: "Trusted partner supplying premium condoms to government institutions for over 3 years."
+      description: "Trusted partner supplying premium products to government institutions for over 3 years.",
+      images: ["/Drapcertificate1.jpeg", "/Drapcertificate2.jpeg"]
     },
     {
       icon: <Stethoscope size={32} className="text-black mb-4" />,
       title: "Imported Quality",
-      description: "Sourced from world-class manufacturing facilities in Malaysia, ensuring global quality standards."
+      description: "Sourced from world-class manufacturing facilities in Malaysia, ensuring global quality standards.",
+      images: ["/importlicense.jfif"]
     }
   ];
 
@@ -31,16 +34,31 @@ export function TrustIndicators() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center items-start">
           {indicators.map((item, index) => (
             <div key={index} className="flex flex-col items-center">
-              <div className="w-16 h-16 rounded-full bg-[#f5f2ed] flex items-center justify-center mb-6">
+              <div className="w-16 h-16 rounded-full bg-[#f5f2ed] flex items-center justify-center mb-6 shrink-0">
                 {item.icon}
               </div>
               <h3 className="text-lg uppercase tracking-wider font-semibold mb-3">{item.title}</h3>
-              <p className="text-sm text-black/60 font-light leading-relaxed max-w-xs mx-auto">
+              <p className="text-sm text-black/60 font-light leading-relaxed max-w-xs mx-auto mb-8">
                 {item.description}
               </p>
+              
+              {/* Certificates */}
+              {item.images && (
+                <div className={`grid gap-4 ${item.images.length > 1 ? 'grid-cols-2' : 'grid-cols-1'} w-full max-w-[280px] mx-auto mt-auto`}>
+                  {item.images.map((img, i) => (
+                    <a key={i} href={img} target="_blank" rel="noopener noreferrer" className="block hover:scale-105 transition-transform duration-300">
+                      <img 
+                        src={img} 
+                        alt={`${item.title} certificate`} 
+                        className="w-full h-auto rounded-lg border border-black/10 shadow-sm" 
+                      />
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
