@@ -14,7 +14,7 @@ export function BottomHero() {
           <img 
             src="/hero3.png" 
             alt="Best in protection & Trust" 
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain md:object-cover object-center"
           />
           
           <div className="absolute inset-x-0 bottom-0 top-2/3 bg-gradient-to-t from-black/60 to-transparent pointer-events-none md:hidden" />

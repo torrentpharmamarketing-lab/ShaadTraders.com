@@ -23,7 +23,7 @@ export function Hero() {
               <img 
                 src={banner.src} 
                 alt={banner.alt} 
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-contain md:object-cover object-center"
               />
               <div className="absolute inset-0 bg-black/20" />
               <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/80 to-transparent pointer-events-none md:hidden" />
