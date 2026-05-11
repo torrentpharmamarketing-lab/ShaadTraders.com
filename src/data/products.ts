@@ -84,15 +84,27 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "shaad-gloves-latex",
-    name: "Premium Latex Gloves",
+    id: "shaad-gloves-latex-1",
+    name: "Shaad Premium Gloves (Type 1)",
     type: "Gloves",
     description: "High-quality, durable latex exploration gloves for clinical, medical, and personal use. Powder-free.",
     colorName: "White",
     colorCode: "#FFFFFF",
-    image: "https://images.unsplash.com/photo-1584989656461-12c8ff4a3e29?auto=format&fit=crop&q=80&w=800",
+    image: "/Shaadgloves1.png",
     variants: [
-      { id: "sg-100", name: "Box of 100", packSize: 100, price: 950 }
+      { id: "sg-100-1", name: "Box of 100", packSize: 100, price: 950 }
+    ]
+  },
+  {
+    id: "shaad-gloves-latex-2",
+    name: "Shaad Premium Gloves (Type 2)",
+    type: "Gloves",
+    description: "High-quality, durable latex exploration gloves for clinical, medical, and personal use. Powder-free and extra durable.",
+    colorName: "Blue",
+    colorCode: "#0076CE",
+    image: "/Shaadgloves2.png",
+    variants: [
+      { id: "sg-100-2", name: "Box of 100", packSize: 100, price: 950 }
     ]
   }
 ];
