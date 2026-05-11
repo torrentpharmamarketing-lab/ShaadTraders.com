@@ -42,7 +42,7 @@ export function ProductDetail() {
                 style={{ backgroundColor: product.colorCode }}
              />
              <img 
-               src={product.image} 
+               src={selectedVariant?.image || product.image} 
                alt={product.name} 
                className="relative w-full h-full object-contain drop-shadow-2xl"
                referrerPolicy="no-referrer"
