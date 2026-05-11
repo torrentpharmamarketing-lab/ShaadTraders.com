@@ -29,7 +29,7 @@ export function Hero() {
               <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/80 to-transparent pointer-events-none md:hidden" />
             </div>
             
-            <div className="relative z-10 flex flex-col justify-end h-full pb-12 items-center md:items-end md:pr-[15%] md:pb-[10%]">
+            <div className="absolute inset-0 z-10 flex flex-col justify-end pb-24 items-center md:items-end md:pr-[15%] md:pb-[10%] pointer-events-none">
               <Button onClick={handleWhatsAppOrder} size="lg" className="bg-[#25D366] text-white hover:bg-[#20bd5a] rounded-full uppercase tracking-widest font-semibold flex items-center gap-2 px-8 py-6 text-sm shadow-xl w-[90%] md:w-auto md:max-w-xs pointer-events-auto">
                 <MessageCircle size={20} />
                 Order via WhatsApp

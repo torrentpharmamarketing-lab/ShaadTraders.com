@@ -15,7 +15,7 @@ export function Products() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
           <p className="text-[11px] uppercase tracking-[0.2em] font-semibold text-black/50 mb-4">Shop Collection</p>
-          <h1 className="text-4xl lg:text-5xl font-light tracking-tight text-black">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black">
             {categoryParam === 'gloves' ? 'Medical Gloves' : 'Premium Condoms'}
           </h1>
         </div>

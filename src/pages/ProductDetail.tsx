@@ -57,7 +57,7 @@ export function ProductDetail() {
             className="flex flex-col justify-center"
           >
             <p className="text-[11px] uppercase tracking-[0.2em] font-semibold text-black/40 mb-4">{product.type}</p>
-            <h1 className="text-4xl lg:text-5xl font-light mb-6 text-black tracking-tight">{product.name}</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light mb-6 text-black tracking-tight">{product.name}</h1>
             
             <p className="text-lg text-black/70 font-light mb-8 leading-relaxed">
               {product.description}

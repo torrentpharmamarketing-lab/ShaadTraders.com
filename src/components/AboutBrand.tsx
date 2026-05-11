@@ -10,7 +10,7 @@ export function AboutBrand() {
           <p className="text-[11px] uppercase tracking-[0.2em] font-semibold text-white/50 mb-6">
             Our Philosophy
           </p>
-          <h2 className="text-4xl lg:text-5xl font-light leading-[1.1] tracking-[-0.01em] mb-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light leading-[1.1] tracking-[-0.01em] mb-8">
             Reliable Protection.<br />
             <span className="font-serif italic font-normal text-white/80">Designed for Real Life.</span>
           </h2>

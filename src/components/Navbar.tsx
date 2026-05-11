@@ -51,10 +51,10 @@ export function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black border-b border-white/10">
           <div className="px-4 pt-2 pb-6 space-y-4">
-            <Link to="/products" className="block text-lg font-medium hover:text-gray-300 pt-4">Condoms</Link>
-            <Link to="/products?category=gloves" className="block text-lg font-medium hover:text-gray-300 pt-4">Gloves</Link>
-            <Link to="/about" className="block text-lg font-medium hover:text-gray-300 pt-4">About Us</Link>
-            <Link to="/b2b" className="block text-lg font-medium hover:text-gray-300 pt-4">Govt & B2B</Link>
+            <Link to="/products" onClick={() => setIsMobileMenuOpen(false)} className="block text-lg font-medium hover:text-gray-300 pt-4">Condoms</Link>
+            <Link to="/products?category=gloves" onClick={() => setIsMobileMenuOpen(false)} className="block text-lg font-medium hover:text-gray-300 pt-4">Gloves</Link>
+            <Link to="/about" onClick={() => setIsMobileMenuOpen(false)} className="block text-lg font-medium hover:text-gray-300 pt-4">About Us</Link>
+            <Link to="/b2b" onClick={() => setIsMobileMenuOpen(false)} className="block text-lg font-medium hover:text-gray-300 pt-4">Govt & B2B</Link>
           </div>
         </div>
       )}
