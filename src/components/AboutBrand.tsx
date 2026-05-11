@@ -8,19 +8,19 @@ export function AboutBrand() {
         {/* Text Side */}
         <div className="py-24 px-8 lg:px-20 xl:px-32 flex flex-col justify-center relative z-10">
           <p className="text-[11px] uppercase tracking-[0.2em] font-semibold text-white/50 mb-6">
-            Our Philosophy
+            Company Profile
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light leading-[1.1] tracking-[-0.01em] mb-8">
-            Reliable Protection.<br />
-            <span className="font-serif italic font-normal text-white/80">Designed for Real Life.</span>
+            Shaad Brand.<br />
+            <span className="font-serif italic font-normal text-white/80">Quality & Reliability.</span>
           </h2>
           
           <div className="space-y-6 text-white/70 font-light text-lg max-w-lg">
             <p>
-              Intimacy shouldn't come with compromises. At Shaad Traders, we believe that premium quality and absolute reliability should be accessible to everyone.
+              Shaad Brand is committed to delivering high-quality medical and healthcare products that meet international safety and performance standards. With a focus on reliability, hygiene, and user comfort, Shaad Brand ensures strict quality control and compliance with regulatory requirements.
             </p>
             <p>
-              Unlike mass-market alternatives, our products are imported from leading global manufacturers in Malaysia, ensuring a natural feel without sacrificing safety. Our strict adherence to DRAP regulations and our history as a trusted government supplier mean you can focus entirely on the moment.
+              <strong className="text-white font-medium">Our Mission:</strong> To provide safe, affordable, and high-performance medical products for healthcare professionals and institutions.
             </p>
           </div>
 

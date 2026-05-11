@@ -22,7 +22,7 @@ export const products: Product[] = [
     id: "mixfun-banana",
     name: "MixFUN Banana Flavor",
     type: "Condoms",
-    description: "Experience enhanced pleasure and comfort with our premium banana-flavored condoms. Designed with smooth lubrication for a natural feel.",
+    description: "Experience enhanced pleasure and comfort with our premium banana-flavored condoms. Designed with smooth lubrication for a natural feel. Made from premium Natural Rubber Latex extracted from rubber trees, providing unmatched elasticity, strength, and flexibility.",
     colorName: "Yellow",
     colorCode: "#F6D000",
     image: "/MaxfunBanana.png",
@@ -35,7 +35,7 @@ export const products: Product[] = [
     id: "mixfun-ribbed",
     name: "MixFUN Ribbed",
     type: "Condoms",
-    description: "Specially designed with ribbed texture to increase stimulation and provide a climax like never before. Maximum reliability and comfort.",
+    description: "Specially designed with ribbed texture to increase stimulation and provide a climax like never before. Maximum reliability and comfort. Made from premium Natural Rubber Latex extracted from rubber trees, providing unmatched elasticity, strength, and flexibility.",
     colorName: "Blue",
     colorCode: "#0076CE",
     image: "/MaxfunRibbed.png",
@@ -48,7 +48,7 @@ export const products: Product[] = [
     id: "mixfun-dotted",
     name: "MixFUN Dotted",
     type: "Condoms",
-    description: "Specially designed with raised dots to increase stimulation and provide a climax like never before. Maximum reliability and comfort.",
+    description: "Specially designed with raised dots to increase stimulation and provide a climax like never before. Maximum reliability and comfort. Made from premium Natural Rubber Latex extracted from rubber trees, providing unmatched elasticity, strength, and flexibility.",
     colorName: "Dark Blue",
     colorCode: "#1B365D",
     image: "/MaxfunDotted.png",
@@ -61,7 +61,7 @@ export const products: Product[] = [
     id: "mixfun-strawberry",
     name: "MixFUN Strawberry Flavor",
     type: "Condoms",
-    description: "Get the closest connection possible. Strawberry flavored, designed for extreme sensitivity without compromising protection.",
+    description: "Get the closest connection possible. Strawberry flavored, designed for extreme sensitivity without compromising protection. Made from premium Natural Rubber Latex extracted from rubber trees, providing unmatched elasticity, strength, and flexibility.",
     colorName: "Red",
     colorCode: "#D12127",
     image: "/Maxfunstrawberry.png",
@@ -75,7 +75,7 @@ export const products: Product[] = [
     id: "mixfun-vanilla",
     name: "MixFUN Vanilla Flavor",
     type: "Condoms",
-    description: "Soft vanilla scent for a sweet and intimate experience. Premium quality and thoroughly tested.",
+    description: "Soft vanilla scent for a sweet and intimate experience. Premium quality and thoroughly tested. Made from premium Natural Rubber Latex extracted from rubber trees, providing unmatched elasticity, strength, and flexibility.",
     colorName: "Light Yellow",
     colorCode: "#FDE68A",
     image: "/MaxfunVanila.png",
@@ -84,27 +84,48 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "shaad-gloves-latex-1",
-    name: "Shaad Premium Gloves (Type 1)",
+    id: "shaad-gloves-nitrile",
+    name: "Shaad Nitrile Examination Gloves (Powder Free)",
     type: "Gloves",
-    description: "High-quality, durable latex exploration gloves for clinical, medical, and personal use. Powder-free.",
-    colorName: "White",
-    colorCode: "#FFFFFF",
+    description: "Made from 100% synthetic nitrile rubber. Latex-free & powder-free (ideal for sensitive users). High resistance to punctures, chemicals, and tears. Excellent fit and flexibility for extended use with textured fingertips for enhanced grip. Ambidextrous design. Single-use disposable. Non-sterile.",
+    colorName: "Blue / Black",
+    colorCode: "#1e293b",
     image: "/Shaadgloves1.png",
     variants: [
-      { id: "sg-100-1", name: "Box of 100", packSize: 100, price: 950 }
+      { id: "sgn-s", name: "Size S (100 pcs)", packSize: 100, price: 1250 },
+      { id: "sgn-m", name: "Size M (100 pcs)", packSize: 100, price: 1250 },
+      { id: "sgn-l", name: "Size L (100 pcs)", packSize: 100, price: 1250 },
+      { id: "sgn-xl", name: "Size XL (100 pcs)", packSize: 100, price: 1250 }
     ]
   },
   {
-    id: "shaad-gloves-latex-2",
-    name: "Shaad Premium Gloves (Type 2)",
+    id: "shaad-gloves-latex-powdered",
+    name: "Shaad Latex Examination Gloves (Powdered)",
     type: "Gloves",
-    description: "High-quality, durable latex exploration gloves for clinical, medical, and personal use. Powder-free and extra durable.",
-    colorName: "Blue",
-    colorCode: "#0076CE",
+    description: "Made from premium natural rubber latex. Lightly powdered for easy donning. Excellent fit and flexibility for extended use. High resistance to tears. Ambidextrous design. Single-use disposable. Non-sterile.",
+    colorName: "White",
+    colorCode: "#FFFFFF",
     image: "/Shaadgloves2.png",
     variants: [
-      { id: "sg-100-2", name: "Box of 100", packSize: 100, price: 950 }
+      { id: "sglp-s", name: "Size S (100 pcs)", packSize: 100, price: 950 },
+      { id: "sglp-m", name: "Size M (100 pcs)", packSize: 100, price: 950 },
+      { id: "sglp-l", name: "Size L (100 pcs)", packSize: 100, price: 950 },
+      { id: "sglp-xl", name: "Size XL (100 pcs)", packSize: 100, price: 950 }
+    ]
+  },
+  {
+    id: "shaad-gloves-latex-powder-free",
+    name: "Shaad Latex Examination Gloves (Powder Free)",
+    type: "Gloves",
+    description: "Made from premium natural rubber latex. Powder-free to reduce the risk of contamination and allergies. Excellent fit and flexibility for extended use. High resistance to tears. Ambidextrous design. Single-use disposable. Non-sterile.",
+    colorName: "White",
+    colorCode: "#FFFFFF",
+    image: "/Shaadgloves2.png",
+    variants: [
+      { id: "sglpf-s", name: "Size S (100 pcs)", packSize: 100, price: 1100 },
+      { id: "sglpf-m", name: "Size M (100 pcs)", packSize: 100, price: 1100 },
+      { id: "sglpf-l", name: "Size L (100 pcs)", packSize: 100, price: 1100 },
+      { id: "sglpf-xl", name: "Size XL (100 pcs)", packSize: 100, price: 1100 }
     ]
   }
 ];
