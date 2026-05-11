@@ -10,7 +10,7 @@ export function Hero() {
 
   const heroBanners = [
     { src: "/hero1.png", alt: "Are you ready for supreme feel?" },
-    { src: "/hero 2.jpeg", alt: "Experience the ultimate pleasure." },
+    { src: "/hero2.png", alt: "Experience the ultimate pleasure." },
     { src: "/hero3.png", alt: "Premium quality guaranteed." }
   ];
 
