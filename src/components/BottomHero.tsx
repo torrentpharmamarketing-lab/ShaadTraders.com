@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export function BottomHero() {
   const handleWhatsAppOrder = () => {
     const text = encodeURIComponent(`Hi Shaad Traders, I'm interested in your products.`);
-    window.open(`https://wa.me/923000000000?text=${text}`, '_blank');
+    window.open(`https://wa.me/923095178894?text=${text}`, '_blank');
   };
 
   return (

@@ -15,7 +15,7 @@ export function Footer() {
               Comfort, Protection, and Trust — All in One. Imported premium quality intimacy and healthcare products.
             </p>
             <a 
-              href="https://wa.me/923000000000" // Placeholder number
+              href="https://wa.me/923095178894" // Placeholder number
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-full hover:bg-[#25D366]/20 transition-colors"
@@ -51,8 +51,8 @@ export function Footer() {
           <div>
             <h4 className="text-[11px] uppercase tracking-widest font-semibold text-white/30 mb-6">Contact</h4>
             <ul className="space-y-4 text-sm font-light text-white/70">
-              <li>support@shaadtraders.com</li>
-              <li>+92 300 0000000</li>
+              <li>jskshaadsmm@gmail.com</li>
+              <li>+92 309 5178894</li>
               <li className="pt-2 text-white/40">Lahore, Pakistan</li>
             </ul>
           </div>

@@ -37,7 +37,7 @@ export function B2BSection() {
 
         <div className="text-center">
           <a 
-            href="mailto:b2b@shaadtraders.com"
+            href="mailto:jskshaadsmm@gmail.com"
             className="inline-block px-10 py-4 bg-black text-white text-sm uppercase tracking-widest hover:bg-black/80 transition-all rounded-full"
           >
             Partner With Us

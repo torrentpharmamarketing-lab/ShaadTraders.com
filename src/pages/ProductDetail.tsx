@@ -22,7 +22,7 @@ export function ProductDetail() {
 
   const handleWhatsAppOrder = () => {
     const text = encodeURIComponent(`Hi Shaad Traders, I would like to order:\n\n*${product.name}*\nPack Size: ${selectedVariant?.name}\nPrice: Rs. ${selectedVariant?.price}\n\nPlease let me know the process for Cash on Delivery.`);
-    window.open(`https://wa.me/923000000000?text=${text}`, '_blank');
+    window.open(`https://wa.me/923095178894?text=${text}`, '_blank');
   };
 
   return (
